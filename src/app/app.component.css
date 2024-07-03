@@ -1,0 +1,30 @@
+.grid-data {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-gap: 0.5rem;
+    row-gap: 1rem;
+}
+
+.image {
+    width: 100%;
+}
+
+.price {
+    color: #898989;
+    font-size: 12px;
+}
+
+.type {
+    color: #B19D8E;
+    font-size: 18px;
+}
+
+.title {
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+.size {
+    font-size: 15px;
+    color: #383838;
+}
